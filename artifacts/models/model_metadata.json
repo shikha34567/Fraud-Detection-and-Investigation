@@ -1,0 +1,66 @@
+{
+  "best_model_name": "XGBoost",
+  "is_demo_data": true,
+  "total_train_samples": 1750,
+  "total_test_samples": 500,
+  "class_imbalance_ratio": "1699:51",
+  "feature_count": 30,
+  "feature_names": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount"
+  ],
+  "metrics_summary": {
+    "Logistic Regression": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "Random Forest": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "XGBoost": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "false_positive_rate": 0.0
+    }
+  }
+}
