@@ -1,0 +1,41 @@
+{
+  "is_demo_data": true,
+  "total_rows": 2500,
+  "total_columns": 31,
+  "schema_validation": {
+    "is_valid": true,
+    "missing_columns": [],
+    "extra_columns": [],
+    "total_columns": 31,
+    "expected_columns_count": 31
+  },
+  "missing_values": {
+    "total_missing": 0,
+    "columns_with_missing": {}
+  },
+  "duplicate_records": 0,
+  "target_distribution": {
+    "legitimate_count": 2425,
+    "fraud_count": 75,
+    "fraud_percentage": 3.0,
+    "imbalance_ratio": "32.3:1"
+  },
+  "amount_statistics": {
+    "min": 1.01,
+    "max": 943.03,
+    "mean": 69.01,
+    "median": 46.88,
+    "std": 71.77,
+    "zero_amount_count": 0,
+    "negative_amount_count": 0
+  },
+  "time_statistics": {
+    "min_seconds": 78.65144218830125,
+    "max_seconds": 172785.37982393583,
+    "duration_hours": 47.97
+  },
+  "validation_warnings": [
+    "Operating in SYNTHETIC DEMO MODE: Dataset is generated for interface testing."
+  ],
+  "status": "PASSED"
+}
